@@ -166,7 +166,6 @@ h2 {
     text-align: center;
 }
 
-
 .logo a {
     background: url(../images/logo.png) center center no-repeat;
     width: 242px;
@@ -284,6 +283,7 @@ h2 {
     width: calc(25% - 32px);
 }
 
+
 .email {
     width: calc(25% - 32px);
 }
@@ -308,6 +308,12 @@ h2 {
 .social_link a:hover {
     color: var(--hover);
     transition: all 0.4s ease-in-out;
+}
+
+.security {
+    font-size: 24px;
+    text-align: center;
+    background: var(--white);
 }
 
 /*
@@ -387,6 +393,10 @@ h2 {
     .center {
         justify-content: center;
         text-align: center;
+    }    
+
+    .security {
+        margin-top: 24px;
     }
 }
 
