@@ -228,23 +228,6 @@ h2 {
 }
 
 
-.scrollTop {
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    background: url(../images/rocket.png) center center / 100px auto no-repeat;
-    width: 100px;
-    height: 100px;
-    z-index: 100;
-    cursor: pointer;
-    display: none;
-}
-
-
-.buttonUP-open {
-    display: inline-block;
-}
-
 #emodjies {
     margin-bottom: 64px;
 }
@@ -314,6 +297,11 @@ h2 {
     font-size: 24px;
     text-align: center;
     background: var(--white);
+}
+
+.views {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 /*

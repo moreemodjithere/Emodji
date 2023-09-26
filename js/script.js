@@ -19,25 +19,6 @@ document.querySelectorAll('a[href^="#"').forEach(link => {
     });
 });
 
-/* -=- Scroll yo -=- */
-let btnUP = document.querySelector('.scrollTop');
-
-btnUP.addEventListener('click', function(){
-    scrollToY(0)
-})
-
-document.addEventListener('scroll', function(){
-    let cl = btnUP.classList;
-    let threshold = window.innerHeight / 2;
-    window.scrollY > threshold ? cl.add('buttonUP-open') : cl.remove('buttonUP-open');
-});
-
-function scrollToY(top){
-    window.scrollTo({
-        top,
-        behavior: "smooth"
-    })
-}
 
 /* -=- Button -=- */
 
